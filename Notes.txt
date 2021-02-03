@@ -4,3 +4,4 @@ Need to use the same set of magic number through out the code base.
 
 Another way to deal with Null Values is Nullable of T struct.
 Refactoring Magic Numbers to Nullable value type eg Nullable<bool>
+C# shorthand for Nullable Values is to replace Nullable<bool> to bool?
