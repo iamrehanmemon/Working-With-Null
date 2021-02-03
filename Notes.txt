@@ -43,7 +43,7 @@ Convinient Properties and methods such as HasValue, Comparing Nullable<T> instan
 
 Eliminating Null Reference Exception
 
-Overview to Null Object Pattern & why to use it.
+Introduction to Null Object Pattern that helps to reduce runtime exceptions, reducing repetitive null checking code using the Null Object patterns such as interfaces as well as reducing it to single null instance using the base class with the help of abstract.
 
 Null Object Pattern -> Null Object pattern is a software design pattern that uses object-orientation to remove or reduce the amount of null references and thus reduce the burden of repetitive null checking and handling code in specific parts of the codebase.
 
