@@ -1,0 +1,6 @@
+Reference & VAlue Tpe Overview
+Magic numbers can be used to deal with null values. The magic numbers need to be set in the program.
+Need to use the same set of magic number through out the code base.
+
+Another way to deal with Null Values is Nullable of T
+Refactoring Magic Numbers to Nullable value type eg Nullable<bool>
