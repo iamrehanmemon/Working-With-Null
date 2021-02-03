@@ -13,3 +13,24 @@ Value types are independent copies
 References point to instance 
 Using Magic Numbers such as -1 & DateTime.MinValue & Shorthand (?) for Null Values
 Nullable for boolean and empty/whitespaces
+
+Accessing and Checking for Null Values
+Convinient Properties and methods
+Comparing Nullable<T> instances,
+
+Implicit & explicit conversions to/from Nullable
+
+Implicit Conversion -> int i = 42; int? j = i; allowed //no explicit cast reqd
+explicit Conversion -> int? i = 42; int j = i; //error not allowed 
+but it can be changes using explicit cast  int j = (int)i ; //explicit cast
+
+C# Operators working with Null
+Conditional Operator -> ?:
+Null Coalescing Operator -> ??
+Null-Conditional Operator -> ?. ?[
+
+
+General purpose conditions operator
+Null coalescing operator
+Null conditional operator
+Thread-safe null delegate invocation
