@@ -5,3 +5,11 @@ Need to use the same set of magic number through out the code base.
 Another way to deal with Null Values is Nullable of T struct.
 Refactoring Magic Numbers to Nullable value type eg Nullable<bool>
 C# shorthand for Nullable Values is to replace Nullable<bool> to bool?
+
+
+Outcome Working with Nullable Value Types and Strings
+Overview of Reference & Value types
+Value types are independent copies
+References point to instance 
+Using Magic Numbers such as -1 & DateTime.MinValue & Shorthand (?) for Null Values
+Nullable for boolean and empty/whitespaces

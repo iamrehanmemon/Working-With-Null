@@ -7,8 +7,15 @@ namespace GameConsole
     class PlayerDisplayer
     {   
         public static void Write (PlayerCharachter player)
-        {
-            Console.WriteLine(player.Name);
+        {   
+            if(string.IsNullOrWhiteSpace(player.Name))
+            {
+                Console.WriteLine("Player is Null Or all Whitespaces");
+            }
+            else
+            {
+                Console.WriteLine(player.Name);
+            }
             
             if(player.DaysSinceLastLogin == null)
             {
